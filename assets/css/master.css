@@ -11,7 +11,7 @@ body {
 main {
   margin: 8px auto;
   width:1150px;
-  height: 1700px;;
+  height: 1500px;;
   background-color: lightblue;
 }
 
@@ -43,27 +43,6 @@ main {
   height: 1100px;
 }
 
-
-.widget-right-container {
-  /* background-color: yellow; */
-  width:20%;
-  float: right;
-}
-
-.widget-right-container::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* .clear {
-  clear:right;
-} */
-
-.sfondo {
-  background-color: blue;
-}
-
 .organic-themes {
   width: 20%;
   float: left;
@@ -75,8 +54,35 @@ main {
   margin-left: 5%;
 }
 
+
+/* right widget container */
+.widget-right-container {
+  width:20%;
+  float: right;
+}
+
+.widget-right-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .text-widget {
   width: 100%;
   margin-bottom: 25px;
   float: right;
+}
+
+.sfondo {
+  background-color: blue;
+}
+
+
+
+/* footer */
+
+.foot-temp {
+  width:100%;
+  height:200px;
+  background-color: yellow;
 }
