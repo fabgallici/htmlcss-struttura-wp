@@ -20,3 +20,15 @@ main {
   width:100%;
   height:200px;
 }
+
+.top-menu-bar {
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid black; /*t*/
+}
+
+.top-menu-bar ul li {
+  width: 13%;
+  display: inline-block;
+}
