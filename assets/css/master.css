@@ -61,16 +61,9 @@ main {
   float: right;
 }
 
-.widget-right-container::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .text-widget {
   width: 100%;
   margin-bottom: 25px;
-  float: right;
 }
 
 .sfondo {
