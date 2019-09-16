@@ -40,7 +40,14 @@ main {
 /* container centrale */
 .mid-container {
   width: 100%;
-  height: 1100px;
+  /* height: 1100px; */
+  background-color: grey;
+}
+
+.mid-container::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .organic-themes {
